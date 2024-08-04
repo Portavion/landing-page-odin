@@ -15,8 +15,8 @@ body {
     flex-direction: row;
     background-color: #1f2937;
     justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .header-logo {
@@ -41,8 +41,9 @@ body {
 }
 
 .image-studio {
-    max-width: 800px;
-    height: auto;
+    max-height: 350px;
+    width: 1200px;
+    object-fit: cover;
 }
 
 .hero {
@@ -51,8 +52,8 @@ body {
     background-color: #1f2937;
     justify-content: space-between;
     gap: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 h1 {
