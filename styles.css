@@ -6,7 +6,7 @@ head {
     display: none;
 }
 
-.header , .hero {
+.header {
     display: flex;
     flex-direction: row;
     background-color: #1f2937;
@@ -33,4 +33,40 @@ head {
 .hero-column {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.image-studio {
+    max-width: 800px;
+    height: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    border-radius: 12px;
+    width: fit-content;
 }
