@@ -6,6 +6,10 @@ head {
     display: none;
 }
 
+body {
+    margin: 0px;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -46,6 +50,7 @@ head {
     flex-direction: row;
     background-color: #1f2937;
     justify-content: space-between;
+    gap: 50px;
     padding-left: 200px;
     padding-right: 200px;
 }
