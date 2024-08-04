@@ -1,0 +1,36 @@
+html * {
+    font-family: 'Roboto', 'Times New Roman', 'Serif';
+}
+
+head {
+    display: none;
+}
+
+.header , .hero {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero-column {
+    display: flex;
+    flex-direction: column;
+}
